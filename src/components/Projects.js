@@ -40,7 +40,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p> Developed dynamic, responsive websites and web applications using modern frameworks like React, Node.js, and Next.js, focused on enhancing user experience and performance.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -70,10 +70,10 @@ export const Projects = () => {
 </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>The projects section showcases a diverse range of web development work, highlighting expertise in building responsive, user-friendly websites and robust web applications. Each project demonstrates proficiency in modern technologies like React, Node.js, and Next.js, with a strong emphasis on delivering seamless user experiences and optimal performance. Additionally, projects include the creation of custom RESTful APIs, third-party integrations, and scalable solutions designed for real-world challenges. This portfolio reflects a commitment to solving complex problems through clean, maintainable code and a collaborative approach to development.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>The projects section showcases a diverse range of web development work, highlighting expertise in building responsive, user-friendly websites and robust web applications. Each project demonstrates proficiency in modern technologies like React, Node.js, and Next.js, with a strong emphasis on delivering seamless user experiences and optimal performance. Additionally, projects include the creation of custom RESTful APIs, third-party integrations, and scalable solutions designed for real-world challenges. This portfolio reflects a commitment to solving complex problems through clean, maintainable code and a collaborative approach to development.quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
